@@ -1,20 +1,48 @@
 #include <stdio.h>
+#include <math.h>
 
 int main(){
-	 
-	int x;
-	x = 10;
-	x = 20;
+   int A;
+	printf("Nhap so nguyen thu nhat:");
+	scanf("%d",&A);
+
+	int B;
+	printf("Nhap so nguyen thu hai:");
+	scanf("%d",&B);
+
+	int C;
+	printf("Nhap so nguyen thu ba:");
+	scanf("%d",&C);
 	
-	float pi = 3.14159;
+			p= (A + B + C)/2;
+         	  	
+         	    cv= p*2;
+        
+         	  	s = sqrt(p*(p-A)*(p-B)*(p-C));
+         	  	
+         	  	printf("Chu vi = %d\n",cv);
+         	  	printf("nua chu vi = %d\n",p);
+         	  	printf("Dien tich = %f",s);
 	
-	printf("Gia Tri = %d\n",x);
- 
-	x = 30;
-	 printf("Gia Tri = %d\n",x);
-	 x = 45; 
-	 printf("Gia Tri = %d\n",x);
-	 x = x + 135;
-	 printf("Gia Tri = %f\n",pi);
-}
+
+
+         	   
+         	
+         	  	
+         	
+         	  	
+         	  	
+         	  	
+         	  	
+         	
+            
+
+            
+            
+               
+	                   
+	
+	
+    
+    }
 
